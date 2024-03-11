@@ -1,0 +1,128 @@
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+    .blog-content {
+        margin-bottom:20px;
+    
+}
+.login-form {
+    width: 50vw;
+}
+}
+
+@media screen and (max-width:767px) {
+    .banner-content h1 {
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .banner-button {
+        padding-top: 10px;
+    }
+    .fashion-content {
+        margin-bottom: 20px;
+    }
+    .seller-image {
+        padding-top: 30px;
+    }
+    .inner-client .carousel-container{
+        flex-direction: column;
+    }
+    .client-carousel {
+        width: 100%;
+        padding: 40px 0;
+    }
+    .client-carousel-2 {
+        width: 100%;
+        display:flex;
+    }
+    .carousel-item .thumb{
+        position: static !important;
+        
+    }
+    .carousel-item .thumb img {
+        height: 200px !important;
+    }
+    .inner-client .active, .dot:hover {
+        background-color: unset;
+    }
+    .carousel-item .thumb {
+        width: 33% !important;
+        padding: 0 10px;
+    }
+    .client-thumbnail {
+        padding: 0;
+    }
+    .login-form {
+        width: 50vw;
+    }
+    .inner-contact-detail {
+        display: inline-block;
+    }
+    .contact-col {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .contact-form-button {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .banner-content h1 {
+        font-size: 46px;
+    }.banner-content h5 {
+        padding-bottom: 10px;
+    }
+    .banner {
+        height: 80vh;
+    }
+    .banner-content p {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .seller-image {
+        width: 100%;
+    }
+    .login-form {
+        width: 80vw;
+    }
+    
+}
+
+@media screen and (max-width:575px) {	
+	.banner-content h1 {
+        font-size: 38px;
+    }
+    .seller-content h2{
+        font-size: 38px;
+    }
+    .inner-footer {
+        display: inline-block;
+    }
+    .footer-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-content h4 {
+        padding-bottom: 10px;
+    }
+    .footer-content ul{
+        padding: 0;
+    }
+    .callus-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .banner {
+        height: 97vh;
+    }
+    #submit {
+        background-color: #bba52b;
+        margin-top: 10px;
+    }
+}
